@@ -20,10 +20,11 @@
     "node": ">=8.0.0"
   },
   "bin": {
-    "keybase-key-tool": "./bin/main"
+    "keybase-player": "./bin/main"
   },
   "files": [
-    "lib/*"
+    "lib/*",
+    "bin/*"
   ],
   "husky": {
     "hooks": {
