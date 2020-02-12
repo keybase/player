@@ -52,7 +52,7 @@
     "@msgpack/msgpack": "^1.11.0",
     "axios": "^0.19.2",
     "chalk": "^3.0.0",
-    "kbpgp": "^2.1.9",
+    "kbpgp": "^2.1.10",
     "ora": "^4.0.3",
     "spinnies": "^0.5.1",
     "stellar-sdk": "^3.3.0",
