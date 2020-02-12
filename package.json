@@ -1,6 +1,6 @@
 {
-  "name": "keybase-merkle-stellar",
-  "version": "0.0.1",
+  "name": "keybase-player",
+  "version": "0.0.2",
   "description": "Query merkle root in Stellar blockchain",
   "keywords": [
     "keybase",
@@ -9,18 +9,18 @@
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "homepage": "https://github.com/keybase/merkle-stellar",
-  "repository": "git@github.com:keybase/merkle-stellar.git",
+  "homepage": "https://github.com/keybase/player",
+  "repository": "git@github.com:keybase/player.git",
   "bugs": {
-    "url": "https://github.com/keybase/merkle-stellar/issues"
+    "url": "https://github.com/keybase/player/issues"
   },
-  "author": "Maxwell Krohn <themax@gmail.com>",
+  "author": "Maxwell Krohn <max@keyba.se>",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=8.0.0"
   },
   "bin": {
-    "keybase-merkle-stellar-check": "./bin/check"
+    "keybase-key-tool": "./bin/main"
   },
   "files": [
     "lib/*"
@@ -52,7 +52,7 @@
     "@msgpack/msgpack": "^1.11.0",
     "axios": "^0.19.2",
     "chalk": "^3.0.0",
-    "kbpgp": "^2.1.9",
+    "kbpgp": "^2.1.10",
     "ora": "^4.0.3",
     "spinnies": "^0.5.1",
     "stellar-sdk": "^3.3.0",
